@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a final module project",
+  "main": "web.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon web",
+    "start": "node web"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.9",
+    "nodemon": "^2.0.12"
+  },
+  "author": "Gabriel Rocha",
+  "engines": {
+    "node": "14.x"
+  }
+}
